@@ -1,4 +1,4 @@
-FROM ubi9:latest
+FROM ubi9-minimal:latest
 RUN dnf -y update
 COPY ./public_html/ /app
 
